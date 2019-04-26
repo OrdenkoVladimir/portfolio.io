@@ -1,0 +1,294 @@
+@media screen and (max-width: 1200px) {
+   .container {
+    width: 100%;
+    margin: 0 auto;
+}
+  .block-info {
+    width:400px;
+    padding:130px 40px;
+}
+.container.info-1 {
+    max-height: 300px;
+}
+.container.info-2 {
+    max-height: 300px;
+}
+}
+@media screen and (max-width: 990px) {
+    .container {
+    width: 100%;
+}
+   .logo {
+    margin-left: 20px;
+   }
+     .title {
+        width:100%;
+        margin: 0 auto;
+        margin-top: 72px;
+     }
+     .title h1 {
+    font-size: 30px;
+}
+.services {
+    flex-direction: space-between;
+    align-items: center;
+    flex-direction: column;
+    }
+    .img-two img {
+    width: 60%;
+    height: 250px;
+}
+.serviсes_item {
+    width: 100%;
+}
+.services.string {
+    flex-direction: row;
+
+}
+
+.sec-block-info.block-info-1 {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/handsup.jpg) no-repeat 50% 0%;
+    background-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.sec-block-info.block-info-2 {
+     display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/teach.jpg) no-repeat 50% 0%;
+   background-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.sec-block-info.block-info-3 {
+     display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/sience.jpg) no-repeat 50% 0%;
+   background-size: 100%;
+   width: 100%;
+    margin: 0 auto;
+}
+    .sec-block-info.block-info-4 {
+         display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/yoga.jpg) no-repeat 50% 0%;
+    background-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.block-info {
+    text-align: left;
+    width: 100%;
+    min-width:300px;
+    padding:130px 0;
+}
+.container.info-1 {
+    margin-top: 50%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.container.info-2 {
+    margin-top: 50%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.feedback {
+    width:100%;
+}
+.feedback input {
+    width:350px;
+}
+.menu-header {
+    display: none;
+}
+ .menu-header .menu {
+    position: absolute;
+    right: 1px;
+    top:60px;
+    padding: 5px 0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.7);
+
+}
+.menu-header .menu li {
+    display: block;
+    padding: 10px 12px;
+}
+.nav-burger {
+    display: block;
+}
+.nav-burger__checkbox:checked + label {
+background-color: grey;
+} 
+ .nav-burger__checkbox:checked ~ .menu-header {
+    display: block; 
+}
+}
+
+@media screen and (max-device-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .logo {
+        position: relative;
+        margin-left: 10px;
+    }
+    .nav-burger {
+        position: absolute;
+        margin-right: 10px 
+    }
+    .menu-header .menu {
+    position: absolute;
+}
+     .title {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+     }
+     .title h1 {
+    font-size: 24px;
+}
+.text-1 {
+    margin: 57px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+  } 
+
+.subtitle {
+   
+     font-size: 16px;
+    font-family: Montserratreg, sans-serif;
+    text-align: center;
+}
+
+
+.services {
+    flex-direction: space-between;
+    align-items: center;
+    flex-direction: column;
+    }
+    .img-two img {
+    width: 100%;
+}
+.serviсes_item {
+    width: 90%;
+}
+.services.string {
+    flex-direction: column;
+
+}
+.article-alt {
+    width:100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.article-alt h2 {
+ font-size: 24px;
+}
+
+.sec-block-info.block-info-1 {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/handsup.jpg) no-repeat 50% 0%;
+    background-size: 100%;
+    width:100%;
+    margin: 0 auto;
+}
+.sec-block-info.block-info-2 {
+     display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/teach.jpg) no-repeat 50% 0%;
+   background-size: 100%;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.sec-block-info.block-info-3 {
+     display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/sience.jpg) no-repeat 50% 0%;
+   background-size: 100%;
+    width:100%;
+    margin: 0 auto;
+}
+    .sec-block-info.block-info-4 {
+         display: flex;
+    align-items: flex-end;
+    text-align: left;
+    background: url(img/yoga.jpg) no-repeat 50% 0%;
+    background-size: 100%;
+    width:100%;
+    margin: 0 auto;
+}
+
+.block-info {
+    text-align: left;
+    width: 100%;
+    min-width:200px;
+    padding: 0;
+}
+.container.info-1 {
+    margin-top: 60%;
+        margin-left: 10%
+        margin-right: 10%;
+}
+.container.info-2 {
+    margin-top: 60%;
+    margin-left: 10%;
+      margin-right: 10%;
+}
+.block-info-title h2 {
+font-size: 27px;
+    }
+.title-end {
+    width: 95%;
+}
+.form-block {
+    display: flex;
+    flex-direction: column;
+}
+.form-block input {
+    width: 100%;
+margin-top: 20px;
+padding-bottom: 5px;
+}
+.feedback {
+    width: 95%;
+    margin-top: 30px;
+}
+textarea {
+    height: 100%;
+}
+.menu-footer {
+ flex-direction: column;
+}
+footer {
+     width: 100%;
+}
+.footer-block {
+    width: 100%;
+}
+.menu.menu-footer li {
+    margin-bottom:20px;
+}
+.menu.menu-footer {
+    margin: 0;
+}
+.footer-block span {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
