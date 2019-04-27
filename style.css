@@ -250,19 +250,21 @@ nav {
 }
 
 .container.info-1 {
+    position: relative;
     display:flex;
     align-items: center;
     justify-content: flex-start;
-    max-height: 500px;
     text-align: right;
+    min-height: 500px;
 }
 .container.info-2 {
     display:flex;
      align-items: center;
     justify-content: flex-end;
-    max-height: 500px;
     text-align: left;
+    min-height: 500px;
 }
+
 .sec-block-info.block-info-1 {
     background: url(img/handsup.jpg) no-repeat 100% 50%;
     background-size: 50%;
@@ -270,20 +272,22 @@ nav {
 .sec-block-info.block-info-2 {
     background: url(img/teach.jpg) no-repeat 0% 50%;
     background-size: 50%;
+    
 }
 .sec-block-info.block-info-3 {
     background: url(img/sience.jpg) no-repeat 100% 50%;
     background-size: 50%;
+    
     }
     .sec-block-info.block-info-4 {
     background: url(img/yoga.jpg) no-repeat 0% 50%;
     background-size: 50%;
+    
 }
 
 .block-info {
     width:475px;
-    
-    padding:130px 0;
+
 }
 .container-fluid {
     width:100%;
